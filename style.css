@@ -1,0 +1,89 @@
+:root {
+  --paper: #FAF6EF;
+  --surface: #FFFFFF;
+  --ink: #1F1D18;
+  --ink2: #5C574C;
+  --ink3: #8A8478;
+  --green: #1C7A5B;
+  --green-deep: #125C44;
+  --line: #E8E2D6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+header {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.nav {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--green-deep);
+  text-decoration: none;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a { color: var(--ink2); text-decoration: none; font-size: 14px; }
+.nav a:hover { color: var(--green); }
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+
+h1 { font-size: 30px; letter-spacing: -0.5px; color: var(--ink); }
+h2 { font-size: 20px; margin-top: 36px; color: var(--green-deep); }
+h3 { font-size: 16px; margin-top: 24px; }
+
+.meta { color: var(--ink3); font-size: 14px; }
+
+a { color: var(--green); }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 24px;
+}
+
+.hero p { color: var(--ink2); font-size: 17px; max-width: 480px; margin: 12px auto 0; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-top: 24px;
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  color: var(--ink3);
+  font-size: 13px;
+  text-align: center;
+  padding: 24px 20px;
+}
