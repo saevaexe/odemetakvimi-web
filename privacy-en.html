@@ -24,7 +24,7 @@
 <h1>Privacy Policy</h1>
 <p class="meta">Effective date: June 11, 2026</p>
 
-<p>Ödeme Takvimi (the "app") treats privacy as a core design principle, not a feature. This document explains what data is processed and how, in line with Apple App Privacy and Turkey's KVKK requirements. In short: <strong>your data stays on your device and (if enabled) in your personal iCloud; it is never sent to us or any third party.</strong></p>
+<p>Ödeme Takvimi (the "app") treats privacy as a core design principle, not a feature. This document explains what data is processed and how, in line with Apple App Privacy and Turkey's KVKK requirements. In short: <strong>the financial data you enter stays on your device and (if enabled) in your personal iCloud; it is never sent to us.</strong> Only limited purchase data is processed by Apple and RevenueCat to manage subscriptions (see section 3 below).</p>
 
 <h2>1. Data Controller</h2>
 <p>This app is published by Osman Seven as an individual developer.</p>
@@ -47,16 +47,23 @@
 <p>The app does not connect to your bank account, does not read your SMS messages, and does not ask for your card number. It only stores identifiers you voluntarily enter (such as the last 4 digits) on your device and, if iCloud is on, in your personal backup.</p>
 
 <h2>3. Purchases</h2>
-<p>Premium subscriptions and one-time purchases are processed entirely through the Apple App Store. We have no access to your payment information. The app uses only Apple's StoreKit framework to verify purchase status.</p>
+<p>Premium subscriptions and one-time purchases are processed entirely through the Apple App Store. We have no access to your payment card information. To manage and verify subscription status, we use <strong>RevenueCat</strong> (RevenueCat, Inc.). RevenueCat processes limited data such as purchase history, an anonymous app user ID, and device/OS information. This data is not used for advertising tracking and is not linked to your identity. RevenueCat privacy policy: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
 
 <h2>4. Notifications</h2>
 <p>Payment reminders are scheduled locally on your device. No push notification server is used; notification content never leaves your device. If you do not grant notification permission, the app will not schedule reminders.</p>
 
 <h2>5. Analytics and Tracking</h2>
 <ul>
-  <li>There is <strong>no</strong> third-party analytics SDK.</li>
   <li>There is <strong>no</strong> advertising or advertising identifier (IDFA) tracking.</li>
+  <li>There is <strong>no</strong> marketing/advertising analytics SDK.</li>
+  <li>Data processed by RevenueCat for subscription infrastructure is described in section 3; it is not linked to your identity and is not used for advertising tracking.</li>
   <li>Apple's optional, anonymous app analytics is processed by Apple only if you have allowed it in iOS settings.</li>
+</ul>
+
+<h2>5a. Third-Party Services</h2>
+<ul>
+  <li><strong>Apple</strong> (App Store, iCloud): purchase processing and the optional personal iCloud backup.</li>
+  <li><strong>RevenueCat</strong>: subscription status management (section 3) — <a href="https://www.revenuecat.com/privacy">privacy policy</a>.</li>
 </ul>
 
 <h2>6. Deleting Your Data</h2>
