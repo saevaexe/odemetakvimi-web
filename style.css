@@ -87,3 +87,13 @@ footer {
   text-align: center;
   padding: 24px 20px;
 }
+
+.stores { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 22px; }
+.store {
+  display: inline-flex; flex-direction: column; align-items: flex-start; justify-content: center;
+  min-width: 168px; min-height: 52px; padding: 8px 18px; border-radius: 12px;
+  background: var(--ink); color: #fff; text-decoration: none; line-height: 1.15;
+}
+.store small { font-size: 11px; opacity: 0.8; }
+.store strong { font-size: 18px; font-weight: 600; }
+.store:hover { opacity: 0.9; color: #fff; }
